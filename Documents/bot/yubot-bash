@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# redirect script to library
+
+DIR=$(dirname "$0")
+DIR=${DIR}/../lib/yubot
+. ${DIR}/main.bash
